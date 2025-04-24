@@ -1,12 +1,4 @@
-# 📺🚀 React Native Multi-TV App Sample
-
-[![React Native](https://img.shields.io/badge/React%20Native-v0.74.2-blue.svg)](https://reactnative.dev/)
-
-[![License: MIT-0](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AmazonAppDev/react-native-multi-tv-app-sample/blob/main/LICENSE)
-
-A versatile TV app developed in React Native, compatible with Android TV, Fire TV, tvOS, and Web. This sample project showcases best practices for TV app UI design and implementation.
-
-![Demo GIF](https://github.com/AmazonAppDev/react-native-multi-tv-app-sample/blob/main/tvdemo.gif)
+# 📺🚀 React Native Project
 
 ## 🌟 Features
 
@@ -15,13 +7,13 @@ A versatile TV app developed in React Native, compatible with Android TV, Fire T
 - 🖼️ Grid layout for content selection
 - 🦸‍♂️ Dynamic hero image header that follows the focused card
 - 🎬 Detailed content screen
-- 🎥 Video player with [react-native-video](https://github.com/TheWidlarzGroup/react-native-video) Thank you [@moskalakamil](https://github.com/moskalakamil)
-- 🎯 Efficient focus management with [React TV Space Navigation](https://github.com/bamlab/react-tv-space-navigation) 
+- 🎥 Video player
 - 🔧 Fully customizable screens and components
 
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v18 or later)
 - [npm](https://www.npmjs.com/)
 - [JDK 17](https://developer.android.com/build/jdks)
@@ -29,21 +21,25 @@ Before you begin, ensure you have the following installed:
 ## 🚀 Quick Start
 
 1. Clone the repository:
+
    ```
-   git clone https://github.com/amazonappdev/react-native-multi-tv-app-sample.git
+   git clone https://github.com/IrfanRa/AndroidTVOS-Projects.git
    ```
 
 2. Navigate to the project directory:
+
    ```
-   cd react-native-multi-tv-app-sample
+   cd SubamericaTV
    ```
 
 3. Install dependencies:
+
    ```
    npm install --legacy-peer-deps
    ```
 
 4. Prebuild the native project optimized for TV:
+
    ```
    export EXPO_TV=1; npx expo prebuild 
    ```
@@ -51,14 +47,17 @@ Before you begin, ensure you have the following installed:
 ## 📱 Running on Different Platforms
 
 ### Android TV / Fire TV
+
 - Ensure you have an Android TV emulator set up or a physical device connected.
 - Run `npx expo run:android --device <Your Device or Emulator>` to build and install the app.
 
 ### tvOS
+
 - Make sure you have Xcode installed with tvOS Simulator.
 - Run `npx expo run:ios` to build and install the app on the tvOS Simulator.
 
 ### Web
+
 - Run `npx expo start --web` to start the app in your default web browser.
 
 - Run `npx expo export -p web` if you want to build the app for web. After a successful build all the needed files for web will be in the ```dist``` directory
@@ -77,27 +76,5 @@ Stay Tuned for more!
 - [Expo](https://expo.dev/)
 - [Expo Drawer](https://docs.expo.dev/router/advanced/drawer/)
 - [React TV Space Navigation](https://github.com/bamlab/react-tv-space-navigation) for Focus Management, Remote control mapping and content lists.
-
-## Get support
-
-If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](../../issues).
-
-If you have questions, comments, or need help with code, we're here to help:
-
-- Join the [Amazon Developer community](https://community.amazondeveloper.com/c/amazon-appstore/17)
-- on Twitter at [@AmazonAppDev](https://twitter.com/AmazonAppDev)
-- on Stack Overflow at the [amazon-appstore](https://stackoverflow.com/questions/tagged/amazon-appstore) tag
-
-Sign up to [stay updated with the developer newsletter](https://m.amazonappservices.com/subscribe-newsletter).
-
-## Authors
-
-- [@efahsl](https://github.com/efahsl)
-- [@giolaq](https://github.com/giolaq)
-
-
-## 📄 License
-
-This project is licensed under the [MIT-0 License](LICENSE).
 
 Happy coding! 🎉 We hope this sample helps you create amazing TV experiences across multiple platforms!
